@@ -1,3 +1,5 @@
 sentence = "A dogmatic dog buys dogecoin to become rich and buy hotdogs every day."
 
-print(sentence.replace(' dog ',' cat '))
+sentence = sentence.replace(' dog ',' cat ')
+
+print(f'{sentence}')
